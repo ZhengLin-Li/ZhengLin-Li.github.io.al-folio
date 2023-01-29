@@ -22,9 +22,8 @@ social: true # includes social icons at the bottom of the page
 
 - 😄 I’m currently a student majoring in Software Engineering in SCU, a SDE intern at Microsoft
 - 🌱 I’m currently learning Distributed System, Cloud Computing, Database System, Natural Language Processing, Recommender Systemsm
-- 🥳 CV/Resume: https://tinyurl.com/Resume-Zhenglin-Li
-- 👤 LinkedIn: https://www.linkedin.com/in/zhenglin-li/
-- 🤣 Personal website: https://zhenglinli.me/
+- 🥳 CV/Resume: [https://tinyurl.com/Resume-Zhenglin-Li](https://tinyurl.com/Resume-Zhenglin-Li)
+- 🤣 Personal website: [https://zhenglinli.me/](https://zhenglinli.me/)
 - 😎 Languages and Tools:
   ![Go](https://img.shields.io/badge/-Go-%23F7DF1C?style=flat&logo=go)
   ![Java](https://img.shields.io/badge/-Java-orange?style=flat&logo=java)
@@ -37,7 +36,7 @@ social: true # includes social icons at the bottom of the page
   ![PowerShell](https://img.shields.io/badge/-Shell-%2389E051?style=flat&logo=powershell&logoColor=ffffff)
   ![Git](https://img.shields.io/badge/-Git-%23ED5A47?style=flat&logo=git&logoColor=%23ffffff)
   ![VS Code](https://img.shields.io/badge/-VSCode-%230066B8?style=flat&logo=visual-studio-code)
-- 📫 How to reach me: lizhenglin2001@gmail.com
+- 📫 How to reach me: [lizhenglin2001@gmail.com](lizhenglin2001@gmail.com)
 <!-- - 👊 Pronouns: he/him/his -->
 - 💬 Ask me about anything
 - 🐼 Full-time panda and part-time coder
