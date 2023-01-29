@@ -2,96 +2,115 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Zhenglin Li
+    # - name: Date of Birth
+    # value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Computer Science
+      institution: Texas A&M University
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        # - Description 1.
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Bachelor of Engineering in Software Engineering
+      institution: Sichuan University, People's Republic of China
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Microsoft Global Hackathon 2022 2022
+        - Top 3%, Tianchi Big Data Competition 2022
+        - Outstanding Student 2021
+        - First-Class Scholarship 2021
+        - Third Prize, The 14th China Software Design and Application Competition 2020
+        - Outstanding Prize, College Students’ Innovative Entrepreneurial Training Plan Program 2020
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer Intern, Microsoft
+      # institution: WebXT News & Feeds Core Ranking Team,
+      year: Nov. 2022 – Jun. 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Migrated a task execution engine, added Serilog as the logging component, and introduced TOML to support extensibility and simplicity of configuration, which accelerated the execution speed by more than 70%
+        - Develop a diagnostic system for ranking control using .NET Generic Host, which offers an in-depth analysis of ranking details. The system improves the productivity of R&D staff by 50%
+        - Migrated a task execution engine, added Serilog as the logging component, and introduced TOML to support extensibility and simplicity of configuration, which accelerated the execution speed by more than 70%
+
+    - title: Software Engineer Intern, Microsoft
+      # institution: M365 Haas & Exchange Team,
+      year: Jul. 2022 – Oct. 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Developed a data query tool(RepairBox Data Query Tool) to help data center operations staff query and analyze hardware information of machines, improving their productivity by 50%
+        - Utilized Azure Synapse Analytics to analyze data in PySpark and persist results to Azure Blob Storage, using RESTful API on client side to trigger downloading, saving time more than 60% compared to the previous system
+        - Wrote PowerShell scripts on the client side to interact with users, using Microsoft Identity Platform and Azure Active Directory to authenticate user identity
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineer Intern, Bytedance(TikTok)
+      # institution: TikTok Open Platform Team,
+      year: Apr. 2022 – Jul. 2022
       description:
+        - Developed a Lark robot using FaaS (function as a service) to automatically respond to the operation staff, letting them query information without writing SQL, which increased their response time by 60%
+        - Refactored three micro-service systems using Apache Thrift and Kitex (a micro-service framework in Go) to support more features, which introduced Redis thus reducing the CPU workload by 17% and database access by 29%
+        - Deployed the three distributed microservice systems on the ByteCloud cloud platform, leading to a 7% increase in PV(Page View) and 4% increase in GMV(Gross Merchandise Value)
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: A Lightweight Key-value Storage Engine Based On SkipList
+      year: Jul. 2022 - Dec. 2022
+      description:
+        - 'Implemented a lightweight key-value storage engine based on the SkipList according to the paper Skip Lists: A Probabilistic Alternative to Balanced Trees'
+        - Adjusted details of the structure of SkipList referring to the implementation in Redis, which achieved better performance than which presented in the original paper by more than 10%
+        - In the condition of random read/write, the QPS of writing is 22w and QPS of reading is 16w
 
+    - title: <a href="https://github.com/ZhengLin-Li/Competition_14th_China_Software_Design_and_Application_Competition">Zhi Qu - A WeChat Mini-app Helping Delivery-retrieval Faster</a>
+      year: Sept. 2020 - Oct. 2021
+      description:
+        - Designed an overall architecture of the WeChat mini-app, including frontend, backend, and Tencent cloud deployment
+        - Built the system using the APIs provided by the WeChat Open Platform with the cloud development environment
+        - Deployed and helped more than 4000 students in SCU to restive their delivery, providing service for more than 12 weeks
+
+    - title: <a href="https://github.com/ZhengLin-Li/amazona">A Web-based Food Ordering System</a>
+      year: Jun. 2020 - Jul. 2020
+      description:
+        - Designed the architecture of a restaurant order management system, implemented it based on Spring Boot and MyBatis, and deployed the service to Alibaba Could within 4 weeks
+        - Utilized Redis, Kafka, and Elasticsearch as the middleware to optimize the performance, which saved the cloud computing cost by roughly 35% and speeds the response time by 70%
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2022
       items:
-        - Description 1.
-        - Description 2.
+        - Microsoft Global Hackathon
+        - Top 3%, Tianchi Big Data Competition
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2021
+      items:
+        - Outstanding Student
+        - First-Class Scholarship
+
+    - year: 2020
+      items:
+        - Third Prize, The 14th China Software Design and Application Competition
+        - Outstanding Prize, College Students’ Innovative Entrepreneurial Training Plan Program
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

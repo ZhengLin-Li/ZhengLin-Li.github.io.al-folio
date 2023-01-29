@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ZhengLin-Li
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ZhengLin-Li/Competition_14th_China_Software_Design_and_Application_Competition
+  - ZhengLin-Li/amazona
+  - ZhengLin-Li/beam
+  - ZhengLin-Li/ddia
